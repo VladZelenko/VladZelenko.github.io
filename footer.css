@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic);
+
+.my-flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  background: #C1C1C1;
+}
+.bord {
+  padding-right: 25px;
+}
+.bord ul>li {
+  font-family: 'Roboto', sans-serif;
+}
+.footer-phone ul li>img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.soc {
+  float: left;
+    list-style-type: none;
+    margin-top: 5px;
+}
+.bgcolorbottom {
+  background: #A2A2A2;
+  font-family: 'Roboto', sans-serif;
+}
