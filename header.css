@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
 body {
-    background: url('img/Bground-icon.jpg') no-repeat fixed;
+    background: url('img/Bground-icon2.jpg') repeat fixed;
 }
 #nav ul li {
     float: left;
