@@ -7,7 +7,6 @@ body {
     float: left;
     list-style-type: none;
     width: 33.3%;
-
 }
 #nav ul li a {
     color: black;
@@ -36,6 +35,3 @@ body {
     color: black;
 
 }
-/*.bordr {
-    border: 3px solid black;
-}*/

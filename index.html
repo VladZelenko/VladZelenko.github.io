@@ -12,20 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="contents.css">
 	<link rel="stylesheet" type="text/css" href="footer.css">
    <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
-<script type="text/javascript">
-$(function() {
-$(window).scroll(function() {
-if($(this).scrollTop() != 0) {
-$('#toTop').fadeIn();
-} else {
-$('#toTop').fadeOut();
-}
-});
-$('#toTop').click(function() {
-$('body,html').animate({scrollTop:0},800);
-});
-});
-</script>
 </head>
 <body>
 	<div id="nav">
@@ -167,5 +153,6 @@ $('body,html').animate({scrollTop:0},800);
 </div>
 <div class="my-flex-container footer-phone bgcolorbottom">© 2016 Developed by Vlad Zelenko</div>
 </footer>
+<script src="topbottom.js"></script>
 </body>
 </html>
